@@ -1,0 +1,412 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+}
+
+body{
+    background-color: blue;
+}
+
+.component{
+    width: 100%;
+}
+.subComponent_1{
+    width: 80%;
+    margin: auto;
+}
+.subComponent_2{
+    width: 100%;
+    text-align: center;
+}
+.date{
+    display: inline-block;
+}
+
+
+#article_1{
+    background: blue;
+    display: inline-block;
+    width: 40%;
+
+}
+
+#datosPersonales{
+    width: 100%;
+}
+#subComponent_1_datosPersonales{
+    width: 80%;
+    margin: auto;
+}
+#data_1_datos{
+    display: block;
+}
+#data_1_datos p {
+    font-size: 60px;
+    margin: 0;
+    margin-top: 5%;
+}
+#data_2_datos p{
+    font-size: 23px;
+    margin: 0;
+
+}
+
+
+#component_email{
+    width: 10%;
+    display: inline-block;
+}
+#subComponent_1_email{
+    width: 100%;
+}
+#data_3_email{
+    width: 100%;
+}
+#data_3_email a{
+    display: inline-block;
+    width: 100%;
+}
+#data_3_email img{
+    width: 100%;
+}
+
+#component_linkedin{
+    width: 10%;
+    display: inline-block;
+}
+#subComponent_1_linkedin{
+    width: 100%;
+}
+#data_3_linkedin{
+    width: 100%;
+}
+#data_3_linkedin a{
+    display: inline-block;
+    width: 100%;
+}
+#data_3_linkedin img{
+    width: 100%;
+}
+
+#component_github{
+    width: 7%;
+    display: inline-block;
+}
+#subComponent_1_github{
+    width: 100%;
+}
+#data_3_github{
+    width: 100%;
+}
+#data_3_github a{
+    display: inline-block;
+    width: 100%;
+}
+#data_3_github img{
+    width: 100%;
+}
+
+
+#component_aboutme{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 2%;
+}
+#subComponent_1_aboutme{
+    width: 80%;
+    background: white;
+    border-radius: 3%;
+}
+#subComponent_2_aboutme{
+    width: 100%;
+}
+#data_1_aboutme{
+    width: 100%;
+}
+#data_1_aboutme p{
+    font-size: 20px;
+    font-family: cursive;
+    margin: 2%;
+}
+
+
+
+
+
+#article_2{
+    background: blue;
+    display: inline-block;
+    width: 59%;
+    float: inline-end;
+    margin-top: 3%;
+}
+
+#component_menu{
+    width: 100%;
+    padding: 1% 0%;
+}
+#subComponent_1_menu{
+    width: 80%;
+    margin: auto;
+}
+#subComponent_2_menu{
+    width: 100%;
+    text-align: center;
+}
+#data_1_menu{
+    width: 23%;
+    background: white;
+    border-radius: 5px;
+    padding: 5px 0%;
+}
+#data_1_menu P{ 
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+}
+#data_2_menu{
+    width:23%;
+    margin: 0% 4%;
+    background: white;
+    border-radius: 5px;
+    padding: 5px 0%;
+}
+#data_2_menu P{ 
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+}
+#data_3_menu{
+    width: 23%;
+    background: white;
+    border-radius: 5px;
+    padding: 5px 0%;
+}
+#data_3_menu P{ 
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#component_view{
+    width: 93%;
+    margin-top: 2%;
+    background: #ffffff57;
+    border-radius: 40px;
+}
+#subComponent_1_view{
+    width: 100%;
+}
+
+
+
+
+
+#article_3{
+    background: gray;
+    display: block;
+    width: 100%;
+
+}
+
+#educacion{
+    display: none;
+}
+#subComponent_1_educacion{
+    width: 95%;
+    padding-bottom: 1%;
+}
+#data_1_educacion{
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+#data_1_educacion P{ 
+    width: 100%;
+    font-size: 30px;
+}
+#data_2_educacion{
+    width: 100%;
+    margin-bottom: 2%;
+}
+#data_2_educacion P{ 
+    width: 100%;
+    font-size: 20px;
+}
+#data_3_educacion{
+    width: 100%;
+    margin-bottom: 2%;
+}
+#data_3_educacion P{ 
+    width: 100%;
+    font-size: 20px;
+}
+.help_educacion{
+    display: block;
+    height: 3px;
+}
+
+
+#skills{
+    display: none;
+}
+#subComponent_1_skills{
+    width: 95%;
+    padding-bottom: 1%;
+}
+#data_1_skills{
+    width: 100%;
+    margin-top: 1%;
+}
+#data_1_skills P{ 
+    width: 100%;
+    font-size: 30px;
+}
+
+#component_tecnologias{
+    margin-top: 4%;
+}
+#data_1_tecnologias{ 
+    width: 18%;
+}
+#data_1_tecnologias P{ 
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+}
+#data_2_tecnologias{ 
+    width: 18%;
+}
+#data_2_tecnologias P{ 
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+}
+#data_3_tecnologias{ 
+    width: 18%;
+}
+#data_3_tecnologias P{ 
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+}
+#data_4_tecnologias{ 
+    width: 18%;
+}
+#data_4_tecnologias P{ 
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+}
+#data_5_tecnologias { 
+    width: 18%;
+}
+#data_5_tecnologias P{ 
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#component_gestoresPaquetes{
+    margin-top: 4%;
+}
+#data_1_gestoresPaquetes{
+    width: 18%;
+}
+#data_1_gestoresPaquetes P{ 
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#component_frameworks{
+    margin-top: 4%;
+    padding-bottom: 2%;
+}
+#data_1_frameworks{
+    width: 18%;
+}
+#data_1_frameworks P{ 
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+}
+#data_2_frameworks{
+    width: 18%;
+}
+#data_2_frameworks P{ 
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+#experince{
+    display: none;
+}
+#subComponent_1_experince{
+    width: 95%;
+    padding-bottom: 1%;
+}
+#data_1_experince{
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+#data_1_experince P{ 
+    width: 100%;
+    font-size: 30px;
+}
+#data_2_experince{
+    display: block;
+    width: 100%;
+    margin-bottom: 2%;
+}
+#data_2_experince_1{
+    width: 100%;
+    margin-bottom: 2%;
+}
+#data_2_experince_1 P{ 
+    width: 100%;
+    font-size: 20px;
+}
+#data_2_experince_2{
+    width: 100%;
+    margin-bottom: 2%;
+}
+#data_2_experince_2 P{ 
+    width: 100%;
+    font-size: 20px;
+}
+#data_3_experince{
+    display: none;
+    width: 100%;
+    margin-bottom: 2%;
+}
+#data_3_experince_1 P{ 
+    width: 100%;
+    font-size: 20px;
+}
+#data_4_experince {
+    width: 18%;
+    background: white;
+    padding: 3px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+#data_4_experince P{ 
+    width: 100%;
+    font-size: 18px;
+}
+
+
+
+
+
