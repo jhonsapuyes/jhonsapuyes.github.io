@@ -1,5 +1,16 @@
 
 
+
+function init(){
+    let ele_1= document.getElementById("subComponent_2_educacion")
+    let ele_2= document.getElementById("subComponent_2_view")
+    
+    ele_1.remove();
+    const node = ele_2
+    node.appendChild(ele_1);
+
+}
+
 function menu(event) {
     let ruta_2= "subComponent_2_view"
     let ele_resp= document.getElementById(ruta_2)
@@ -80,7 +91,7 @@ function experiencia() {
         case "block":
             element_1.style.display="none"
             element_2.style.display="block"
-            element_3.childNodes[1].innerText="PROYECTOS"
+            element_3.childNodes[1].innerText="TRABAJOS TECNOLOGICOS"
             break;
         case "none":
             element_1.style.display="block"
@@ -94,3 +105,5 @@ function experiencia() {
     }
 
 }
+
+
