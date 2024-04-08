@@ -141,6 +141,9 @@ function menu_movil() {
 
     if(know_position == "absolute"){      
 
+        let new_component_menu_m= '<div style="width: 20%; position: absolute;" onclick="view_menu_m()"> <img style="width: 100%;" src="img predeterminadas/menu_movil.png" > </div>'
+        document.getElementById("article_1").insertAdjacentHTML("afterbegin", new_component_menu_m);
+
         let new_component= '<div id="data_4_menu" class="date" onclick="menu(event)"><p>SOBRE MI</p></div>'
         element_1.childNodes[1].childNodes[1].insertAdjacentHTML("beforeend", new_component);
 
@@ -163,7 +166,6 @@ function menu_movil() {
 
         document.getElementById("data_4_experince").setAttribute("style", "width: 36%;");
         
-
         function elem_goBack() {
             let ruta_toBack= "subComponent_1_"
             let search_ele= ele_resp.childNodes
@@ -189,5 +191,24 @@ function menu_movil() {
 
     }
 
+
+}
+
+function view_menu_m() {
+
+    let elemt_1= document.getElementById("component_menu")
+    const cssObj = window.getComputedStyle(elemt_1, null);
+    let know_position = cssObj.getPropertyValue("display");
+    
+    switch(know_position) {
+        case "block":
+            elemt_1.style.display="none"
+            break;
+        case "none":
+            elemt_1.style.display="block"
+            break;
+        default:
+            elemt_1.style.display="none"
+    }
 
 }
