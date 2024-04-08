@@ -554,12 +554,12 @@ body{
     }
 
     #component_menu{
-        width: 20%;
+        width: 22%;
         padding: 1% 0%;
         margin: auto;
         position: absolute;
         top: 2%;
-        left: 80%;
+        left: 78%;
     }
     #subComponent_1_menu{
         width: 80%;

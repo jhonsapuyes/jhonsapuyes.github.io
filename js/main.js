@@ -149,7 +149,7 @@ function menu_movil() {
             const element = childs[index];
 
             if (element.localName == "div") {
-                let css_3= "margin-bottom: 2%;"
+                let css_3= "margin-bottom: 5%;"
                 document.getElementById(element.id).setAttribute("style", css_3);
             }
             
