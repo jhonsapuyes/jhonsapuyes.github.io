@@ -155,7 +155,7 @@ function menu_movil() {
             
         }
 
-        let css_1= "display: block; width: 23%; background: white; border-radius: 5px; padding: 5px 0%;"
+        let css_1= "display: block; width: 100%; background: white; border-radius: 5px; padding: 5px 0%;"
         let css_2= "width: 100%; font-size: 10px; cursor: pointer;"
         let new_ele= document.getElementById("data_4_menu")
         new_ele.setAttribute("style", css_1);

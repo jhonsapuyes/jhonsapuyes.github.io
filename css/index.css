@@ -554,12 +554,12 @@ body{
     }
 
     #component_menu{
-        width: 100%;
+        width: 20%;
         padding: 1% 0%;
         margin: auto;
         position: absolute;
         top: 2%;
-        left: 70%;
+        left: 80%;
     }
     #subComponent_1_menu{
         width: 80%;
@@ -571,7 +571,7 @@ body{
     }
     #data_1_menu{
         display: block;
-        width: 23%;
+        width: 100%;
         background: white;
         border-radius: 5px;
         padding: 5px 0%;
@@ -583,7 +583,7 @@ body{
     }
     #data_2_menu{
         display: block;
-        width:23%;
+        width:100%;
         background: white;
         border-radius: 5px;
         padding: 5px 0%;
@@ -595,7 +595,7 @@ body{
     }
     #data_3_menu{
         display: block;
-        width: 23%;
+        width: 100%;
         background: white;
         border-radius: 5px;
         padding: 5px 0%;
