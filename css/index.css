@@ -686,12 +686,15 @@ body{
     #component_tecnologias{
         margin-top: 4%;
     }
+    #subComponent_1_tecnologias{
+        width: 100%;
+    }
     #data_1_tecnologias{ 
         width: 18%;
     }
     #data_1_tecnologias P{ 
         width: 100%;
-        font-size: 12px;
+        font-size: 10px;
         font-weight: bold;
     }
     #data_2_tecnologias{ 
@@ -699,7 +702,7 @@ body{
     }
     #data_2_tecnologias P{ 
         width: 100%;
-        font-size: 12px;
+        font-size: 10px;
         font-weight: bold;
     }
     #data_3_tecnologias{ 
@@ -707,7 +710,7 @@ body{
     }
     #data_3_tecnologias P{ 
         width: 100%;
-        font-size: 12px;
+        font-size: 10px;
         font-weight: bold;
     }
     #data_4_tecnologias{ 
@@ -715,7 +718,7 @@ body{
     }
     #data_4_tecnologias P{ 
         width: 100%;
-        font-size: 12px;
+        font-size: 10px;
         font-weight: bold;
     }
     #data_5_tecnologias { 
@@ -723,7 +726,7 @@ body{
     }
     #data_5_tecnologias P{ 
         width: 100%;
-        font-size: 12px;
+        font-size: 10px;
         font-weight: bold;
     }
 
@@ -735,7 +738,7 @@ body{
     }
     #data_1_gestoresPaquetes P{ 
         width: 100%;
-        font-size: 22px;
+        font-size: 10px;
         font-weight: bold;
     }
 
@@ -748,7 +751,7 @@ body{
     }
     #data_1_frameworks P{ 
         width: 100%;
-        font-size: 22px;
+        font-size: 10px;
         font-weight: bold;
     }
     #data_2_frameworks{
@@ -756,7 +759,7 @@ body{
     }
     #data_2_frameworks P{ 
         width: 100%;
-        font-size: 22px;
+        font-size: 10px;
         font-weight: bold;
     }
 
@@ -808,7 +811,7 @@ body{
         font-size: 20px;
     }
     #data_4_experince {
-        width: 18%;
+        width: 20%;
         background: white;
         padding: 3px 0px;
         border-radius: 5px;
@@ -817,7 +820,7 @@ body{
     }
     #data_4_experince P{ 
         width: 100%;
-        font-size: 18px;
+        font-size: 14px;
     }
 
 
